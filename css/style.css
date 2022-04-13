@@ -1,0 +1,151 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+ #offcanvas-left {
+  position: absolute;
+  max-width: 400px;
+  width: 25%;
+  background-color: #f8f8f8;
+  right: 0;
+  padding: 1em;
+  z-index: 6;
+  margin-bottom: 2em;
+}
+
+/***
+**  Views Exposed Filters
+***/
+
+/* .bef-exposed-form .form-item.panel {
+  width: 100%;
+} */
+.bef-exposed-form h2.block-title {
+  margin: 0 0 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid;
+}
+.bef-exposed-form .form-type-checkbox {
+  display: block;
+  margin-bottom: 3px;
+}
+.bef-exposed-form .form-type-checkbox  input[type="checkbox"] {
+  margin-right: 6px;
+}
+.bef-exposed-form .form--inline > .form-item {
+  float: none;
+  margin-bottom: 1.3em;
+}
+.form-inline > .form-item > label.control-label,
+.form-inline > .form-item > legend > .fieldset-legend {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+.form-inline .form-control {
+  width: 100%;
+}
+
+
+/***
+**  Main Menu
+***/
+
+.gcweb-menu {
+  font-size: 1em;
+}
+
+
+/***
+**  Welcome Message
+***/
+
+h1.with-icon::before {
+  content: url(../images/icons/cspssymbol.png);
+  margin-right: 0.3em;
+  font-size: 2em;
+}
+
+
+/***
+**  Message Region
+***/
+.highlighted {
+  margin: 0 0 2.5em 0;
+}
+
+
+/***
+**  Footer
+***/
+
+footer#wb-info {
+  margin-top: 3em;
+}
+
+
+/***
+**  H5P Library
+***/
+
+.view-h5p-library li.list-group-item {
+  margin-bottom: 1em;
+}
+.view-h5p-library .view-header {
+  margin-bottom: 1em;
+  text-align: right;
+}
+
+h3.item-title {
+  margin: 0.25em 0;
+  font-size: 1em;
+}
+h3.item-title > a {
+  text-decoration: none;
+}
+
+#offcanvas-left {
+  position: absolute;
+  max-width: 400px;
+  width: 25%;
+  background-color: #f8f8f8;
+  right: 0;
+  padding: 1em;
+  z-index: 6;
+  margin-bottom: 2em;
+}
+
+/* .bef-exposed-form .form-item.panel {
+  width: 100%;
+} */
+.bef-exposed-form h2.block-title {
+  margin: 0 0 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid;
+}
+.bef-exposed-form .form-type-checkbox {
+  display: block;
+}
+
+
+.bef-exposed-form .form--inline > .form-item {
+  float: none;
+  margin-bottom: 1.3em;
+}
+.form-inline > .form-item > label.control-label,
+.form-inline > .form-item > legend > .fieldset-legend {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+.form-inline .form-control {
+  width: 100%;
+}
+
+
+.highlighted {
+  margin: 0 0 1.5em 0;
+}
+
+footer#wb-info {
+  margin-top: 3em;
+}

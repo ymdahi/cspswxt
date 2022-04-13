@@ -1,0 +1,62 @@
+$h5p_types: (
+  "Accordion": "../images/icons/h5p/Accordion.svg",
+  "Advent Calendar": "../images/icons/h5p/AdventCalendar.svg",
+  "Agamotto": "../images/icons/h5p/Agamotto.svg",
+  "Arithmetic Quiz": "../images/icons/h5p/ArithmeticQuiz.svg",
+  "Audio": "../images/icons/h5p/Audio.svg",
+  "Audio Recorder": "../images/icons/h5p/AudioRecorder.svg",
+  "Fill in the Blanks": "../images/icons/h5p/Blanks.svg",
+  "Branching Question": "../images/icons/h5p/BranchingQuestion.svg",
+  "Branching Scenario": "../images/icons/h5p/BranchingScenario.svg",
+  "Chart": "../images/icons/h5p/Chart.svg",
+  "Collage": "../images/icons/h5p/Collage.svg",
+  "Column": "../images/icons/h5p/Column.svg",
+  "Course Presentation": "../images/icons/h5p/CoursePresentation.svg",
+  "Crossword": "../images/icons/h5p/Crossword.svg",
+  "Dialog Cards": "../images/icons/h5p/Dialogcards.svg",
+  "Dictation": "../images/icons/h5p/Dictation.svg",
+  "Documentation Tool": "../images/icons/h5p/DocumentationTool.svg",
+  "Drag and Drop": "../images/icons/h5p/DragQuestion.svg",
+  "Drag Text": "../images/icons/h5p/DragText.svg",
+  "Essay": "../images/icons/h5p/Essay.svg",
+  "Find The Words": "../images/icons/h5p/FindTheWords.svg",
+  "Flashcards": "../images/icons/h5p/Flashcards.svg",
+  "Guess The Answer": "../images/icons/h5p/GuessTheAnswer.svg",
+  "iFrame Embed": "../images/icons/h5p/IFrameEmbed.svg",
+  "Image Hotspot Question": "../images/icons/h5p/ImageHotspotQuestion.svg",
+  "Image Hotspots": "../images/icons/h5p/ImageHotspots.svg",
+  "Image Pair": "../images/icons/h5p/ImagePair.svg",
+  "Image Sequencing": "../images/icons/h5p/ImageSequencing.svg",
+  "Image Slider": "../images/icons/h5p/ImageSlider.svg",
+  "Interactive Book": "../images/icons/h5p/InteractiveBook.svg",
+  "Interactive Video": "../images/icons/h5p/InteractiveVideo.svg",
+  "KewAr Code": "../images/icons/h5p/KewArCode.svg",
+  "Mark the Words": "../images/icons/h5p/MarkTheWords.svg",
+  "Memory Game": "../images/icons/h5p/MemoryGame.svg",
+  "Multiple Choice": "../images/icons/h5p/MultiChoice.svg",
+  "Questionnaire": "../images/icons/h5p/Questionnaire.svg",
+  "Question Set": "../images/icons/h5p/QuestionSet.svg",
+  "Single Choice Set": "../images/icons/h5p/QuestionSet.svg",
+  "Speak The Words": "../images/icons/h5p/SpeakTheWords.svg",
+  "Speak The Words Set": "../images/icons/h5p/SpeakTheWordsSet.svg",
+  "Summary": "../images/icons/h5p/Summary.svg",
+  "Three Image": "../images/icons/h5p/ThreeImage.svg",
+  "Timeline": "../images/icons/h5p/Timeline.svg",
+  "True/False Question": "../images/icons/h5p/TrueFalse.svg",
+  "Twitter User Feed": "../images/icons/h5p/TwitterUserFeed.svg",  
+);
+
+span[data-h5p-type] {
+  font-size: 0;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@each $type, $bg in $h5p_types {
+  span[data-h5p-type="#{$type}"] {
+    background-image: url($bg);
+  }
+}
